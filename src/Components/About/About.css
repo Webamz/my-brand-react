@@ -1,0 +1,73 @@
+.about {
+    background-color: #06172b;
+    display: block;
+}
+
+.pitch {
+    /* background-color: #37e834; */
+    width: 30%;
+    font-size: 14px;
+    /* margin-left: 10%; */
+    padding-top: 20px;
+}
+
+.pitch h1,
+p {
+    color: white;
+}
+
+.about-header {
+    /* height: 100px; */
+    margin-left: 50%;
+    width: 150px;
+    display: flex;
+    padding-top: 80px;
+}
+
+.about-header h1 {
+    color: white;
+}
+
+.about-container {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-container #profile-picture {
+    /* width: 300px;
+  height: 300px; */
+    border-radius: 30%;
+    margin-right: 50px;
+    object-fit: cover;
+}
+
+.about-container p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about-container h1 {
+    text-align: left;
+}
+
+.cv-btn {
+    margin-left: 75%;
+    margin-right: 15%;
+    padding: 0px 5px;
+    border-radius: 10%;
+    width: 150px;
+    text-align: center;
+}
+
+.cv-btn button {
+    background-color: #2d9f2b;
+    border-radius: 10%;
+    width: 150px;
+    font-size: 16px;
+    color: white;
+}
+
+.cv-btn button:hover {
+    background-color: #37e834;
+}

@@ -1,0 +1,149 @@
+
+.detail-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.detail-blog-details h2 {
+    margin-top: 0;
+    color: #16307E;
+}
+
+.detail-blog-post-img {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.detail-blog-post-img img {
+    width: 100%;
+    height: auto;
+}
+
+.detail-blog-post-info {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.detail-blog-post-date span {
+    margin-right: 15px;
+    color: #888;
+}
+
+.detail-like-button,
+.detail-comments {
+    margin-top: 20px;
+}
+
+.detail-like-button i,
+.detail-comments i {
+    margin-right: 5px;
+}
+
+.detail-comments-section {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.detail-comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.detail-comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.detail-comment-author {
+    font-style: italic;
+}
+
+.detail-comment-date {
+    font-style: italic;
+}
+
+.detail-comment-body {
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.detail-comment-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.detail-comment-actions i {
+    margin-right: 5px;
+}
+
+.detail-comment-form {
+    margin-top: 20px;
+}
+
+.detail-comment-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+.detail-comment-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #16307E;
+    color: #fff;
+    cursor: pointer;
+}
+
+.detail-comment-form button:hover {
+    background-color: #0e2351;
+}
+
+.detail-blog-post-info p {
+ color: #0e2351;
+ font-size: 16px;
+ text-align: justify;
+}
+
+.spinner {
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #4CAF50;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

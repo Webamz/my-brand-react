@@ -1,0 +1,76 @@
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #16307e;
+}
+
+
+.contact-header {
+    font-size: 30px;
+}
+
+.contact-header h2 {
+    text-align: center;
+    color: white;
+}
+
+.green-text {
+    color: #2d9f2b;
+}
+
+.contact-page {
+    width: 70%;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 50%;
+    border-radius: 8px;
+    margin-right: 10px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form-group textarea {
+    width: 100%;
+    border-radius: 8px;
+    margin-right: 10px;
+    height: 150px;
+    font-size: 16px;
+}
+
+.form-group ::placeholder {
+    text-align: center;
+    font-size: 14px;
+}
+
+.btn {
+    justify-content: center;
+    /* margin-right: 20px; */
+}
+
+button[type="submit"] {
+    padding: 5px 15px;
+    background-color: #2d9f2b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+button[type="submit"]:hover {
+    background-color: #37e834;
+}
