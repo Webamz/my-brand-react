@@ -5,6 +5,7 @@
     justify-content: space-evenly;
 }
 
+
 .skills-card {
     background-color: #323846;
     width: 400px;
@@ -62,6 +63,7 @@
     width: 150px;
     display: flex;
     padding-top: 80px;
+    font-size: 16px;
 }
 
 .skills-header h1 {
